@@ -18,7 +18,7 @@ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.20.3.linux-amd64.tar.gz
 sudo chmod -R 777 /usr/local/go/
 
 
-# Show version.
+### Show version.
 
 
 go version
