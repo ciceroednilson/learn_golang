@@ -1,18 +1,18 @@
 
-# Install Golang.
+### Install Golang.
 
 
 https://go.dev/learn/
 
 
-# Linux - execute the command after the download go1.20.3.linux-amd64.tar.gz.
+### Linux - execute the command after the download go1.20.3.linux-amd64.tar.gz.
 
 
 rm -rf /usr/local/go && tar -C /usr/local -xzf go1.20.3.linux-amd64.tar.gz
 
 
 
-# Permission.
+### Permission.
 
 
 sudo chmod -R 777 /usr/local/go/
@@ -24,48 +24,48 @@ sudo chmod -R 777 /usr/local/go/
 go version
 
 
-# Create/Start a module.
+### Create/Start a module.
 
  
 go mod init name-module
 
 
-# Build.
+### Build.
 
 go build
 
-# Example of download of dependency.
+### Example of download of dependency.
 
 
 go get github.com/badoux/checkmail
 
 
-# Remove unnecessary dependency.
+### Remove unnecessary dependency.
 
 
 go mod tidy
 
 
-# Execute an application.
+### Execute an application.
 
 
 go run file_main.go
 
 
 
-# Execute in the root folder to execute all unit test.
+### Execute in the root folder to execute all unit test.
 
 
 go test ./...
 
 
-# Execute the unit test as detail.
+### Execute the unit test as detail.
 
 
 go test -v ./...
 
 
-# Execute the unit test as coverage.
+### Execute the unit test as coverage.
 
 
 go test --cover  ./...
